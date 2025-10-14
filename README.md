@@ -44,8 +44,8 @@ The DoT1 project aimed to create a comprehensive diabetes tracking and managemen
 ### Architecture & Setup
 
 *Ref 1: Project Architecture Overview*
+
 <img width="326" height="621" alt="image" src="https://github.com/user-attachments/assets/fe3f6690-f31f-4180-8f67-6ebd5622b91f" />
-[Screenshot showing the Clean Architecture folder structure with feature-based organization - 11 health tracking modules each with domain/data/presentation layers]
 
 This demonstrates the Clean Architecture implementation with feature-based organization. Each health tracking category (insulin, meals, activity, etc.) is self-contained with clear separation of concerns.
 
