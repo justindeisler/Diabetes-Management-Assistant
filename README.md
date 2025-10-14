@@ -50,7 +50,8 @@ The DoT1 project aimed to create a comprehensive diabetes tracking and managemen
 This demonstrates the Clean Architecture implementation with feature-based organization. Each health tracking category (insulin, meals, activity, etc.) is self-contained with clear separation of concerns.
 
 *Ref 2: Development Environment Setup*
-[Screenshot of Flutter development environment with code generation running - dart run build_runner watch]
+
+<img width="685" height="123" alt="Screenshot_build" src="https://github.com/user-attachments/assets/e75f649b-c34e-426c-944e-4eb56cb369d2" />
 
 Shows the modern development workflow with automated code generation for Riverpod providers, Freezed data classes, and JSON serialization, enabling type-safe development practices.
 
