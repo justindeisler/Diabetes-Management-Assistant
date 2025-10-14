@@ -2,12 +2,15 @@
 
 ## Objective
 
-The DoT1 project aimed to create a comprehensive diabetes tracking and management platform that addresses the complex needs of individuals managing diabetes through technology. The primary focus was to integrate real-time continuous glucose monitoring (CGM) with advanced health analytics, providing users with actionable insights for better diabetes management. This hands-on healthcare technology project was designed to demonstrate proficiency in mobile development, medical device integration, and AI-assisted development workflows while solving real-world healthcare challenges.
+The DoT1 project aimed to create a comprehensive diabetes tracking and management platform that addresses the complex needs of individuals managing diabetes through technology. The primary focus was to integrate real-time continuous glucose monitoring (CGM) with advanced health analytics, providing users with actionable insights for better diabetes management. This hands-on healthcare technology project was designed to demonstrate proficiency in mobile development, medical device integration, self-hosted backend infrastructure, and AI-assisted development workflows while solving real-world healthcare challenges.
 
 ### Skills Learned
 
 - Advanced cross-platform mobile development using Flutter and Dart with Clean Architecture principles.
 - Healthcare technology integration including CGM device APIs (LibreLink) with secure credential management.
+- Self-hosted backend infrastructure deployment and management using Ubuntu Server.
+- Backend service orchestration with systemd for 24/7 automated CGM data collection.
+- FastAPI REST API design and PostgreSQL database administration.
 - Real-time data processing and synchronization for medical device integration.
 - Advanced state management implementation using Riverpod with code generation.
 - Secure authentication and encrypted healthcare data storage following HIPAA compliance principles.
@@ -22,6 +25,9 @@ The DoT1 project aimed to create a comprehensive diabetes tracking and managemen
 - **Flutter/Dart**: Cross-platform mobile application framework for iOS, Android, Web, Windows, macOS, and Linux.
 - **Riverpod with Code Generation**: Advanced state management with riverpod_generator for type-safe dependency injection.
 - **LibreLink CGM API**: Real-time continuous glucose monitoring integration with secure credential storage.
+- **FastAPI**: Modern Python web framework for building the backend REST API.
+- **PostgreSQL**: Production database for persistent health data storage and user management.
+- **Ubuntu Server**: Self-hosted backend infrastructure with systemd service management.
 - **Material Design 3**: Modern UI framework with health-specific color schemes and accessibility features.
 - **Python Integration**: Seamless data export for advanced analytics using pandas-compatible formats.
 - **Claude Code**: AI-assisted development workflows for accelerated development while maintaining code quality.
@@ -29,6 +35,7 @@ The DoT1 project aimed to create a comprehensive diabetes tracking and managemen
 - **Freezed & JSON Serialization**: Immutable data classes with automatic code generation for robust data models.
 - **Secure Storage**: Flutter Secure Storage for encrypted credential management and sensitive data protection.
 - **FL Chart**: Advanced data visualization library for health metrics, trends, and correlation analysis.
+- **Systemd**: Linux service management for automated startup and 24/7 background service operation.
 
 ## Steps
 
@@ -104,21 +111,76 @@ Demonstrates seamless Python integration with structured data export in pandas-c
 
 Secure healthcare data management with encryption, structured storage, and comprehensive backup options ensuring data integrity and privacy compliance.
 
+### Backend Infrastructure & Deployment
+
+*Ref 13: Ubuntu Server Configuration*
+[Screenshot showing Ubuntu Server 24.04 terminal with systemd service configuration and status]
+
+Self-hosted backend infrastructure running on Ubuntu Server 24.04 with systemd service management for automated startup, 24/7 reliability, and automatic restart on failure.
+
+*Ref 14: PostgreSQL Database Setup*
+[Screenshot of PostgreSQL database with health data tables, schema design, and optimized indexes]
+
+Production PostgreSQL database with optimized schema for storing health metrics, user accounts, and CGM readings with proper relationships and indexing for fast queries.
+
+*Ref 15: Automated CGM Collection Service*
+[Screenshot showing systemd service logs and CGM data fetching process with timestamps]
+
+Background service automatically fetching LibreLinkUp CGM data at configurable intervals, with comprehensive logging, error recovery, and retry logic for network failures.
+
+*Ref 16: FastAPI Backend Documentation*
+[Screenshot of FastAPI automatic OpenAPI documentation showing all REST endpoints]
+
+FastAPI REST API with automatic interactive documentation, displaying all endpoints for health data management, user authentication, CGM integration, and data export.
+
+*Ref 17: Frontend Backend Configuration*
+[Screenshot of Flutter UI showing backend configuration panel with server settings and interval controls]
+
+Flutter frontend interface for configuring backend settings including server connection details, authentication credentials, and CGM data collection intervals (1-60 minutes).
+
 ### Cross-Platform Deployment
 
-*Ref 13: Multi-Platform Build Success*
+*Ref 18: Multi-Platform Build Success*
 [Screenshot of successful builds for iOS, Android, Web, Windows, macOS, and Linux platforms]
 
 Demonstrates the cross-platform capability of the Flutter application, successfully building for all major platforms while maintaining consistent functionality and user experience.
 
 ### AI-Assisted Development Workflow
 
-*Ref 14: Claude Code Development Integration*
+*Ref 19: Claude Code Development Integration*
 [Screenshot showing Claude Code interface with code review and architectural guidance]
 
 Professional AI-assisted development workflow using Claude Code for architectural guidance, code review, and accelerated development while maintaining technical ownership and decision-making authority.
 
-*Ref 15: Code Quality & Architecture Validation*
+*Ref 20: Code Quality & Architecture Validation*
 [Screenshot of code analysis results showing Clean Architecture compliance and quality metrics]
 
 Comprehensive code quality validation demonstrating Clean Architecture principles, type safety, security compliance, and maintainability standards achieved through AI-assisted development practices.
+
+## Conclusion
+
+This project demonstrates comprehensive full-stack development capabilities spanning mobile application development, backend infrastructure, database management, and medical device integration. The DoT1 Diabetes Management Assistant successfully combines modern development practices with real-world healthcare technology challenges to create a production-ready solution for diabetes management.
+
+The implementation of Clean Architecture with 11 feature-based health tracking modules showcases strong software engineering principles, while the self-hosted backend with automated CGM data collection demonstrates DevOps and system administration capabilities. The successful integration of LibreLinkUp CGM API with secure credential management and 24/7 automated data fetching proves competency in medical device API integration and background service orchestration.
+
+**Key Achievements:**
+- Built scalable cross-platform application supporting 6 platforms from a single Flutter codebase
+- Deployed production-ready self-hosted backend infrastructure with FastAPI and PostgreSQL
+- Implemented HIPAA-compliant security practices including encrypted data storage and secure authentication
+- Integrated medical device APIs with robust error handling and regional endpoint discovery
+- Developed advanced analytics engine with correlation analysis across multiple health metrics
+- Created intuitive Material Design 3 UI optimized for healthcare data visualization
+- Achieved 24/7 automated CGM data collection with systemd service management
+- Established seamless Python integration for advanced external analytics and machine learning
+
+**AI-Assisted Development:** The integration of Claude Code as a development assistant accelerated the development process significantly, providing expert-level architectural guidance, code review, and comprehensive documentation. This project showcases how AI-assisted development can enhance productivity while maintaining high code quality standards and deepening technical understanding through AI-generated best practices and architectural recommendations.
+
+The project successfully balances technical excellence with user experience, security compliance (HIPAA), and maintainability. It demonstrates the ability to architect and deploy complex healthcare technology solutions that bridge mobile applications, backend services, database management, and medical device integration—all critical competencies for building next-generation healthcare applications.
+
+---
+
+**Technologies**: Flutter • Dart • Riverpod • Material Design 3 • Python • FastAPI • PostgreSQL • Ubuntu Server • Systemd • LibreLinkUp API • FL Chart • Clean Architecture
+
+**AI Development Tool**: Claude Code (claude.ai/code)
+
+**Platforms**: iOS • Android • Web • Windows • macOS • Linux
