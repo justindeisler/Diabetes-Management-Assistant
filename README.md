@@ -58,7 +58,8 @@ Shows the modern development workflow with automated code generation for Riverpo
 ### Health Tracking Features
 
 *Ref 3: Comprehensive Health Dashboard*
-[Screenshot of the main dashboard showing health summary with multiple tracking categories and recent entries]
+
+<img width="568" height="1084" alt="Home_Screen " src="https://github.com/user-attachments/assets/37a970ac-1848-4867-8d18-2577f8cb1709" /> <img width="568" height="1084" alt="Track_Screen" src="https://github.com/user-attachments/assets/1110bb7c-9fa9-4e5b-9ad2-ab876fa8bfe9" />
 
 The home screen provides a comprehensive overview of all 11 health tracking categories with recent entries, quick access buttons, and health insights at a glance.
 
