@@ -57,38 +57,38 @@ Shows the modern development workflow with automated code generation for Riverpo
 
 ### Health Tracking Features
 
-*Ref 3: Comprehensive Health Dashboard*
-
-<img width="568" height="1084" alt="Home_Screen " src="https://github.com/user-attachments/assets/37a970ac-1848-4867-8d18-2577f8cb1709" /> <img width="568" height="1084" alt="Track_Screen" src="https://github.com/user-attachments/assets/1110bb7c-9fa9-4e5b-9ad2-ab876fa8bfe9" />
+*Ref 3: Comprehensive Health Dashboard*  
+<img width="568" height="1084" alt="Home_Screen " src="https://github.com/user-attachments/assets/37a970ac-1848-4867-8d18-2577f8cb1709" />
+<img width="568" height="1084" alt="Data_Screen" src="https://github.com/user-attachments/assets/984cb5ec-2269-4a91-a378-417a9b8e6584" />
 
 The home screen provides a comprehensive overview of all 11 health tracking categories with recent entries, quick access buttons, and health insights at a glance.
 
-*Ref 4: Advanced Tracking Interface*
-[Screenshot of the main tracking screen with categorized health entry options and intuitive UI]
+*Ref 4: Advanced Tracking Interface*  
+<img width="568" height="1084" alt="Track_Screen" src="https://github.com/user-attachments/assets/1110bb7c-9fa9-4e5b-9ad2-ab876fa8bfe9" />
 
 Demonstrates the intuitive tracking interface with all health categories accessible through a clean, healthcare-optimized Material Design 3 interface.
 
-*Ref 5: Insulin Tracking with Brand Memory*
-[Screenshot showing insulin tracking form with dropdown for insulin types and dosage input]
+*Ref 5: Insulin Tracking*  
+<img width="568" height="1084" alt="InsulinTracking_Screen" src="https://github.com/user-attachments/assets/258a5655-2ec9-4514-a43e-112b84ae094d" />
 
 Advanced insulin tracking feature with brand name memory, dosage tracking, and timing management for comprehensive diabetes management.
 
 ### CGM Integration & Real-Time Monitoring
 
-*Ref 6: CGM Integration Setup*
-[Screenshot of CGM credential entry form with secure storage and regional endpoint selection]
-
+*Ref 6: CGM Integration Setup*  
+<img width="568" height="1084" alt="Settings_Screen" src="https://github.com/user-attachments/assets/1540e2ea-2ea4-41db-944a-2a59794a39f9" />
+(Add more) 
 Secure CGM integration setup with encrypted credential storage and automatic regional endpoint discovery for global compatibility.
 
-*Ref 7: Real-Time Glucose Monitoring*
-[Screenshot of live CGM data display with glucose readings, trends, and time-in-range calculations]
+*Ref 7: Real-Time Glucose Monitoring*  
+<img width="214" height="197" alt="image" src="https://github.com/user-attachments/assets/9349d74c-12d2-48b4-9d67-939eab1860cf" />
 
 Real-time continuous glucose monitoring with live data synchronization, trend analysis, and time-in-range calculations providing immediate health insights.
 
-*Ref 8: CGM Data Visualization*
-[Screenshot of advanced glucose charts with trend lines, target ranges, and statistical analysis]
+*Ref 8: Analysis Options*  
+<img width="568" height="1084" alt="Analysis_Screen" src="https://github.com/user-attachments/assets/ea82ce63-f97d-4b00-bf33-7b05b90b1fe3" />
 
-Advanced data visualization showing glucose patterns, trend analysis, and statistical insights including time-in-range, glucose variability, and pattern recognition.
+Advanced data visualization options for glucose patterns, trend analysis, and statistical insights including time-in-range, glucose variability, and pattern recognition.
 
 ### Advanced Analytics & Correlation Analysis
 
