@@ -88,13 +88,13 @@ Shows the modern development workflow with automated code generation for Riverpo
 
 ### Backend Infrastructure & Deployment
 
-*Ref 9: Ubuntu Server Configuration*
+*Ref 9: Ubuntu Server Configuration*   
 <img width="439" height="801" alt="server_setup" src="https://github.com/user-attachments/assets/ff6c93d7-15aa-400a-ab9f-f7b87e172381" />
 
-*Ref 10: PostgreSQL Database Setup*
+*Ref 10: PostgreSQL Database Setup*   
 <img width="330" height="759" alt="db_setup" src="https://github.com/user-attachments/assets/f1953b1a-5c12-4cf6-a8cb-d03c92e6b60c" />
 
-*Ref 11: Automated CGM Collection Service*
+*Ref 11: Automated CGM Collection Service*   
 <img width="1462" height="575" alt="cgm_collection_log" src="https://github.com/user-attachments/assets/ddfdb1a6-99a4-40ae-b63b-4a6d61370ca2" />
 
 ## Conclusion
