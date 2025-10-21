@@ -55,110 +55,47 @@ This demonstrates the Clean Architecture implementation with feature-based organ
 
 Shows the modern development workflow with automated code generation for Riverpod providers, Freezed data classes, and JSON serialization, enabling type-safe development practices.
 
-### Health Tracking Features
+### User Interface 
 
-*Ref 3: Comprehensive Health Dashboard*  
+*Ref 3: Home Screen and Data Overview*  
 <img width="568" height="1084" alt="Home_Screen " src="https://github.com/user-attachments/assets/37a970ac-1848-4867-8d18-2577f8cb1709" />
 <img width="568" height="1084" alt="Data_Screen" src="https://github.com/user-attachments/assets/984cb5ec-2269-4a91-a378-417a9b8e6584" />
 
-The home screen provides a comprehensive overview of all 11 health tracking categories with recent entries, quick access buttons, and health insights at a glance.
-
-*Ref 4: Advanced Tracking Interface*  
+*Ref 4: Quick Access Tracking Interface*  
 <img width="568" height="1084" alt="Track_Screen" src="https://github.com/user-attachments/assets/1110bb7c-9fa9-4e5b-9ad2-ab876fa8bfe9" />
 
-Demonstrates the intuitive tracking interface with all health categories accessible through a clean, healthcare-optimized Material Design 3 interface.
-
-*Ref 5: Insulin Tracking*  
+*Ref 5: Example: Insulin Tracking*  
 <img width="568" height="1084" alt="InsulinTracking_Screen" src="https://github.com/user-attachments/assets/258a5655-2ec9-4514-a43e-112b84ae094d" />
-
-Advanced insulin tracking feature with brand name memory, dosage tracking, and timing management for comprehensive diabetes management.
 
 ### CGM Integration & Real-Time Monitoring
 
 *Ref 6: CGM Integration Setup*  
 <img width="568" height="1084" alt="Settings_Screen" src="https://github.com/user-attachments/assets/1540e2ea-2ea4-41db-944a-2a59794a39f9" />
-(Add more) 
-Secure CGM integration setup with encrypted credential storage and automatic regional endpoint discovery for global compatibility.
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 48 25" src="https://github.com/user-attachments/assets/bddef0e0-6ade-4948-b2c6-d3288f0d0043" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 48 39" src="https://github.com/user-attachments/assets/536f8043-8592-4ff3-af74-403e21c195e3" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 48 47" src="https://github.com/user-attachments/assets/c4f0a886-894e-4626-9bc1-8a5b634544da" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 49 00" src="https://github.com/user-attachments/assets/0b78f8dc-9b98-4491-96c0-964109105d63" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 49 12" src="https://github.com/user-attachments/assets/7ba8dfa2-1b37-4ba3-8987-508754b649b4" />
+<img width="568" height="1084" alt="Patienten auswählen" src="https://github.com/user-attachments/assets/952a4232-5d10-4fb8-ad4c-b5432d3be25f" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 49 43" src="https://github.com/user-attachments/assets/86b99437-8d0f-42d1-8e9d-a07803fca508" />
+<img width="568" height="1084" alt="Bildschirmfoto 2025-10-21 um 17 54 49" src="https://github.com/user-attachments/assets/9dbad5ec-0a8a-43a7-8969-9ce13961514d" />
 
 *Ref 7: Real-Time Glucose Monitoring*  
 <img width="214" height="197" alt="image" src="https://github.com/user-attachments/assets/9349d74c-12d2-48b4-9d67-939eab1860cf" />
 
-Real-time continuous glucose monitoring with live data synchronization, trend analysis, and time-in-range calculations providing immediate health insights.
-
-*Ref 8: Analysis Options*  
+*Ref 8: Analysis Dashboard*  
 <img width="568" height="1084" alt="Analysis_Screen" src="https://github.com/user-attachments/assets/ea82ce63-f97d-4b00-bf33-7b05b90b1fe3" />
-
-Advanced data visualization options for glucose patterns, trend analysis, and statistical insights including time-in-range, glucose variability, and pattern recognition.
-
-### Advanced Analytics & Correlation Analysis
-
-*Ref 9: Health Analytics Dashboard*
-[Screenshot of correlation analysis showing relationships between different health metrics]
-
-Comprehensive analytics engine demonstrating correlation analysis between health metrics, identifying patterns and relationships that support better diabetes management decisions.
-
-*Ref 10: Trend Analysis & Insights*
-[Screenshot showing long-term trend analysis with statistical insights and health recommendations]
-
-Advanced trend analysis providing statistical insights, pattern recognition, and actionable health recommendations based on comprehensive data analysis.
-
-### Data Management & Python Integration
-
-*Ref 11: Data Export & Python Integration*
-[Screenshot of data export interface showing CSV/JSON export options for Python analytics]
-
-Demonstrates seamless Python integration with structured data export in pandas-compatible formats, enabling advanced external analytics and machine learning applications.
-
-*Ref 12: Secure Data Storage*
-[Screenshot showing data management interface with encryption status and backup options]
-
-Secure healthcare data management with encryption, structured storage, and comprehensive backup options ensuring data integrity and privacy compliance.
 
 ### Backend Infrastructure & Deployment
 
-*Ref 13: Ubuntu Server Configuration*
-[Screenshot showing Ubuntu Server 24.04 terminal with systemd service configuration and status]
+*Ref 9: Ubuntu Server Configuration*
+<img width="439" height="801" alt="server_setup" src="https://github.com/user-attachments/assets/ff6c93d7-15aa-400a-ab9f-f7b87e172381" />
 
-Self-hosted backend infrastructure running on Ubuntu Server 24.04 with systemd service management for automated startup, 24/7 reliability, and automatic restart on failure.
+*Ref 10: PostgreSQL Database Setup*
+<img width="330" height="759" alt="db_setup" src="https://github.com/user-attachments/assets/f1953b1a-5c12-4cf6-a8cb-d03c92e6b60c" />
 
-*Ref 14: PostgreSQL Database Setup*
-[Screenshot of PostgreSQL database with health data tables, schema design, and optimized indexes]
-
-Production PostgreSQL database with optimized schema for storing health metrics, user accounts, and CGM readings with proper relationships and indexing for fast queries.
-
-*Ref 15: Automated CGM Collection Service*
-[Screenshot showing systemd service logs and CGM data fetching process with timestamps]
-
-Background service automatically fetching LibreLinkUp CGM data at configurable intervals, with comprehensive logging, error recovery, and retry logic for network failures.
-
-*Ref 16: FastAPI Backend Documentation*
-[Screenshot of FastAPI automatic OpenAPI documentation showing all REST endpoints]
-
-FastAPI REST API with automatic interactive documentation, displaying all endpoints for health data management, user authentication, CGM integration, and data export.
-
-*Ref 17: Frontend Backend Configuration*
-[Screenshot of Flutter UI showing backend configuration panel with server settings and interval controls]
-
-Flutter frontend interface for configuring backend settings including server connection details, authentication credentials, and CGM data collection intervals (1-60 minutes).
-
-### Cross-Platform Deployment
-
-*Ref 18: Multi-Platform Build Success*
-[Screenshot of successful builds for iOS, Android, Web, Windows, macOS, and Linux platforms]
-
-Demonstrates the cross-platform capability of the Flutter application, successfully building for all major platforms while maintaining consistent functionality and user experience.
-
-### AI-Assisted Development Workflow
-
-*Ref 19: Claude Code Development Integration*
-[Screenshot showing Claude Code interface with code review and architectural guidance]
-
-Professional AI-assisted development workflow using Claude Code for architectural guidance, code review, and accelerated development while maintaining technical ownership and decision-making authority.
-
-*Ref 20: Code Quality & Architecture Validation*
-[Screenshot of code analysis results showing Clean Architecture compliance and quality metrics]
-
-Comprehensive code quality validation demonstrating Clean Architecture principles, type safety, security compliance, and maintainability standards achieved through AI-assisted development practices.
+*Ref 11: Automated CGM Collection Service*
+<img width="1462" height="575" alt="cgm_collection_log" src="https://github.com/user-attachments/assets/ddfdb1a6-99a4-40ae-b63b-4a6d61370ca2" />
 
 ## Conclusion
 
